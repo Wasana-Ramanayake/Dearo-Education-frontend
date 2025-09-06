@@ -19,9 +19,8 @@ This repository contains the **frontend** of the app, including UI screens, navi
 ---
 
 ## ⚙️ Technologies Used
-- **Flutter & Dart** – For building cross-platform mobile apps  
-- **Provider / Bloc** – State management (if used)  
-- **HTTP / Dio** – API integration  
+- **Flutter & Dart** – For building cross-platform mobile apps   
+- **HTTP** – API integration  
 - **Flutter packages** – For charts, forms, and UI components  
 
 ---
