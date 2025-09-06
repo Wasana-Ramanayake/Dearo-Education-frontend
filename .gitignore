@@ -1,0 +1,36 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.build/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-credentials
+.pub-cache/
+.pub/
+*.log
+
+# Android
+/android/.gradle/
+/android/local.properties
+**/*.iml
+
+# iOS
+/ios/Pods/
+/ios/Runner.xcworkspace
+/ios/Flutter/Flutter.framework
+/ios/Flutter/engine/
+*.xcuserdata
+*.xcuserstate
+
+# IDEs
+.idea/
+.vscode/
+
+# Misc
+*.DS_Store
+*.keystore
+*.jks
+*.p12
+.env
+ 

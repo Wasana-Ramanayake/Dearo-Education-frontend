@@ -1,0 +1,83 @@
+name: frontend
+description: "A Flutter project for Dearo Education."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI and Icons
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  provider: ^6.1.2
+
+  # Navigation
+  go_router: ^14.8.1
+
+  # Networking
+  http: ^1.2.1
+
+  # Local Storage
+  shared_preferences: ^2.2.3
+  flutter_secure_storage: ^8.0.0
+
+  # Image Picker
+  image_picker: ^1.0.7
+
+  # Date formatting
+  intl: ^0.18.1
+
+  # Charting library
+  fl_chart: ^0.66.2
+
+  # URL Launcher
+  url_launcher: ^6.2.4
+
+  # Percent Indicator for circular progress bars
+  percent_indicator: ^4.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.10.0 # ✅ Added for app launcher icon
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo_2.png
+    - assets/images/forgot.png  
+    - assets/images/new_p.png 
+    - assets/images/reset.png 
+    - assets/images/FF.png 
+    - assets/grades/1.png 
+    - assets/grades/2.png 
+    - assets/grades/3.png 
+    - assets/grades/4.png 
+    - assets/grades/5.png 
+    - assets/grades/6.png 
+    - assets/grades/7.png 
+    - assets/grades/8.png 
+    - assets/grades/9.png 
+    - assets/grades/10.png 
+    - assets/grades/11.png 
+    - assets/grades/12.png 
+    - assets/grades/13.png
+    - assets/images/quiz.png
+    - assets/images/activity.jpg
+    - assets/images/activity2.png
+    - assets/images/exam2.png
+
+# ✅ Launcher icon configuration
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo_2.png"
